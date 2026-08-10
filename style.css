@@ -1,0 +1,28 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.profile{
+    display: flex;
+    align-items: center;   
+    padding: 30px;
+}
+
+.img_deg{
+    width: 250px;
+    margin-right: 30px;
+}
+
+.info h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.info p{
+    font-size: 24px;
+    margin: 10px 0;
+}
