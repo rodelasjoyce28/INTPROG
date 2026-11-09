@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Exercise 5 - AJAX</title>
+</head>
+<body>
+
+    <h2>Welcome Form</h2>
+
+    <form id="welcomeForm">
+        <label>Enter your name:</label>
+        <input type="text" id="name" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("welcomeForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            let name = document.getElementById("name").value;
+
+            fetch("process.php", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ name: name })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").textContent =
+                    JSON.stringify(data);
+            });
+        });
+    </script>
+
+</body>
+</html>
