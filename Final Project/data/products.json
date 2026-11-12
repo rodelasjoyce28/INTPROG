@@ -1,0 +1,74 @@
+[
+  {
+    "id": "B001",
+    "name": "Classic Burger",
+    "category": "burger",
+    "description": "Grilled beef patty, cheddar, lettuce, tomato, and house sauce.",
+    "price": 180,
+    "prep_time": "10 mins",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "P002",
+    "name": "Margherita Pizza",
+    "category": "pizza",
+    "description": "Tomato sauce, mozzarella, basil, and olive oil on a thin crust.",
+    "price": 240,
+    "prep_time": "15 mins",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "M003",
+    "name": "Chicken Alfredo Bowl",
+    "category": "meal",
+    "description": "Creamy pasta with grilled chicken, parmesan, and herbs.",
+    "price": 260,
+    "prep_time": "18 mins",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "D004",
+    "name": "Iced Mocha",
+    "category": "drink",
+    "description": "Fresh espresso, chocolate, and cold milk over crushed ice.",
+    "price": 110,
+    "prep_time": "5 mins",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "D005",
+    "name": "Citrus Lemonade",
+    "category": "drink",
+    "description": "Classic lemonade with a bright citrus finish.",
+    "price": 90,
+    "prep_time": "4 mins",
+    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "S006",
+    "name": "Berry Cheesecake",
+    "category": "dessert",
+    "description": "Creamy cheesecake topped with a berry compote.",
+    "price": 150,
+    "prep_time": "5 mins",
+    "image": "https://images.unsplash.com/photo-1533134242443-d6adb0891991?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "S007",
+    "name": "Chocolate Lava Cake",
+    "category": "dessert",
+    "description": "Warm chocolate cake with a rich molten center and vanilla cream.",
+    "price": 170,
+    "prep_time": "7 mins",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "S008",
+    "name": "Strawberry Shortcake",
+    "category": "dessert",
+    "description": "Soft vanilla cake layered with fresh strawberries and cream.",
+    "price": 160,
+    "prep_time": "6 mins",
+    "image": "https://images.unsplash.com/photo-1464306076886-da185f6a9d8d?auto=format&fit=crop&w=800&q=80"
+  }
+]
