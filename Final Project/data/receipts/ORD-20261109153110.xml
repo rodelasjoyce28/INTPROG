@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order id="ORD-20261109153110">
+  <customer>
+    <name>nigga</name>
+    <email>nigga@gmail.com</email>
+    <delivery_mode>delivery</delivery_mode>
+  </customer>
+  <items>
+    <item>
+      <id>B001</id>
+      <name>Classic Burger</name>
+      <quantity>1</quantity>
+      <price>180.00</price>
+    </item>
+  </items>
+  <created_at>2026-11-09 15:31:10</created_at>
+</order>
