@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Orders | Cafe Byte</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">Cafe Byte</div>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="menu.php">Menu</a>
+            <a href="checkout.php">Checkout</a>
+            <a href="admin.php">Admin</a>
+            <a href="logout.php">Logout</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="panel">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Admin</p>
+                    <h2>Order Management</h2>
+                </div>
+            </div>
+
+            <div class="admin-order-list">
+                                                                                                            <div class="admin-order-card">
+                            <div class="admin-order-head">
+                                <div>
+                                    <strong>trisha</strong>
+                                    <span>trisha@email.com</span>
+                                </div>
+                                <span class="status-badge status-pending">Pending</span>
+                            </div>
+
+                            <ul class="order-item-list">
+                                                                    <li>
+                                        Iced Mocha - Qty: 1                                    </li>
+                                                                    <li>
+                                        Classic Burger - Qty: 1                                    </li>
+                                                                    <li>
+                                        Margherita Pizza - Qty: 1                                    </li>
+                                                                    <li>
+                                        Chicken Alfredo Bowl - Qty: 1                                    </li>
+                                                            </ul>
+
+                            <small>2026-11-09 09:13:35</small>
+
+                            <form method="POST" action="admin.php" class="admin-order-form">
+                                <input type="hidden" name="update_status" value="0">
+
+                                <label>
+                                    Order status
+                                    <select name="status">
+                                                                                    <option value="Pending" selected>
+                                                Pending                                            </option>
+                                                                                    <option value="Preparing" >
+                                                Preparing                                            </option>
+                                                                                    <option value="Ready" >
+                                                Ready                                            </option>
+                                                                                    <option value="Completed" >
+                                                Completed                                            </option>
+                                                                                    <option value="Cancelled" >
+                                                Cancelled                                            </option>
+                                                                            </select>
+                                </label>
+
+                                <div class="admin-actions">
+                                    <button type="submit" class="primary-btn">Update status</button>
+                                </div>
+                            </form>
+
+                            <form method="POST" action="admin.php" class="inline-form">
+                                <input type="hidden" name="delete_order" value="0">
+                                <button type="submit" class="danger-btn" onclick="return confirm('Remove this order?');">Remove</button>
+                            </form>
+                        </div>
+                                                </div>
+        </section>
+    </main>
+</body>
+</html>
